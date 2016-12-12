@@ -2,7 +2,10 @@
   "name": "wix-react-native-gifted-chat-temporary",
   "version": "1.0.0",
   "description": "The most complete chat UI for React Native",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && babel src --out-dir dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wix/react-native-gifted-chat"
@@ -24,6 +27,8 @@
   "license": "MIT",
   "homepage": "https://github.com/FaridSafi/react-native-gifted-chat#readme",
   "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-react-native": "^1.9.0",
     "eslint": "^3.11.1",
     "eslint-plugin-react": "^6.8.0",
     "eslint-plugin-react-native": "^2.2.0"
@@ -37,5 +42,11 @@
     "react-native-invertible-scroll-view": "^1.0.0",
     "react-native-parsed-text": "^0.0.16",
     "shallowequal": "^0.2.2"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ],
+    "retainLines": true
   }
 }
