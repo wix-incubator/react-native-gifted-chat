@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/wix-private/react-native-gifted-chat"
   },
+  "publishConfig": {
+    "registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+  },
   "keywords": [
     "android",
     "ios",
