@@ -1,6 +1,6 @@
 {
   "name": "wix-react-native-gifted-chat-temporary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The most complete chat UI for React Native",
   "main": "dist/index.js",
   "scripts": {
