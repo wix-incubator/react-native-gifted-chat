@@ -1,5 +1,5 @@
 {
-  "name": "wix-react-native-gifted-chat-temporary",
+  "name": "react-native-gifted-chat-temporary",
   "version": "1.0.3",
   "description": "The most complete chat UI for React Native",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/wix/react-native-gifted-chat"
   },
   "publishConfig": {
-    "registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "android",
