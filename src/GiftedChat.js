@@ -1,12 +1,12 @@
 import React from 'react';
 import {
     Animated,
+    InteractionManager,
     Platform,
     StyleSheet,
     View,
 } from 'react-native';
 
-import InteractionManager from './InteractionManager';
 import ActionSheet from '@exponent/react-native-action-sheet';
 import dismissKeyboard from 'react-native-dismiss-keyboard';
 import moment from 'moment/min/moment-with-locales.min';
