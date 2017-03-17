@@ -371,14 +371,14 @@ class GiftedChat extends React.Component {
             return;
         }
         this.setMaxHeight(layout.height);
-        InteractionManager.runAfterInteractions(() => {
+        //InteractionManager.runAfterInteractions(() => {
             this.setState({
                 isInitialized: true,
                 text: '',
                 composerHeight: MIN_COMPOSER_HEIGHT,
                 messagesContainerHeight: this.prepareMessagesContainerHeight(this.getMaxHeight() - this.getMinInputToolbarHeight()),
             });
-        });
+        //});
     }
 
     onMainViewLayout(e) {
