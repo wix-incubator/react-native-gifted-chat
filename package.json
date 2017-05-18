@@ -1,6 +1,6 @@
 {
   "name": "react-native-gifted-chat-temporary",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "The most complete chat UI for React Native",
   "main": "dist/index.js",
   "scripts": {
