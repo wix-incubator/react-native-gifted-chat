@@ -1,9 +1,10 @@
 import React from 'react';
 
 import {
-    ListView,
     View,
 } from 'react-native';
+
+import ListView from 'deprecated-react-native-listview';
 
 import shallowequal from 'shallowequal';
 import InvertibleScrollView from 'react-native-invertible-scroll-view';
